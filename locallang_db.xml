@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'itaw_gigdisplayer'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_itawgigdisplayer_main">ITAW Gigdisplayer</label>
+			<label index="tx_itawgigdisplayer_main.date">Date of the Gig</label>
+			<label index="tx_itawgigdisplayer_main.location">Location of the gig</label>
+			<label index="tx_itawgigdisplayer_main.location_address">Location Address</label>
+			<label index="tx_itawgigdisplayer_main.country">Country</label>
+			<label index="tx_itawgigdisplayer_main.location_city">Location City</label>
+			<label index="tx_itawgigdisplayer_main.url">URL</label>
+			<label index="tx_itawgigdisplayer_main.info">Detailinfo</label>
+			<label index="tx_itawgigdisplayer_main.flyer">Flyer</label>
+			<label index="tt_content.list_type_pi1">ITAW Gigdisplayer</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_itawgigdisplayer_main">ITAW Gigdisplayer</label>
+			<label index="tx_itawgigdisplayer_main.date">Datum des Gigs</label>
+			<label index="tx_itawgigdisplayer_main.location">Veranstaltungsort</label>
+			<label index="tx_itawgigdisplayer_main.location_address">Adresse des Veranstaltungsorts</label>
+			<label index="tx_itawgigdisplayer_main.country">Land</label>
+			<label index="tx_itawgigdisplayer_main.location_city">Stadt des Veranstaltungsorts</label>
+			<label index="tx_itawgigdisplayer_main.url">URL</label>
+			<label index="tx_itawgigdisplayer_main.info">Detailinformationen</label>
+			<label index="tx_itawgigdisplayer_main.flyer">Flyer</label>
+			<label index="tt_content.list_type_pi1">ITAW Gigdisplayer</label>
+		</languageKey>
+	</data>
+</T3locallang>

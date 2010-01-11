@@ -1,0 +1,53 @@
+<T3DataStructure> 
+  <meta>
+    <langDisable>1</langDisable>
+  </meta>
+  <sheets>
+  <sDEF>
+   <ROOT>
+     <TCEforms>
+        <sheetTitle>LLL:EXT:itaw_gigdisplayer/locallang_tca.php:itaw_gigdisplayer.pi_flexform.sheetInputs</sheetTitle>
+     </TCEforms>
+     <type>array</type>
+     <el>
+        <displayType>
+           <TCEforms>
+              <label>LLL:EXT:itaw_gigdisplayer/locallang_tca.php:itaw_gigdisplayer.pi_flexform.displayType</label>
+              <config>
+                 <type>select</type>
+                 <items>
+                    <numIndex index="0">
+                       <numIndex index="0">LLL:EXT:itaw_gigdisplayer/locallang_tca.php:itaw_gigdisplayer.pi_flexform.list</numIndex>
+                       <numIndex index="1">list</numIndex>
+                    </numIndex>
+                    <numIndex index="1">
+                       <numIndex index="0">LLL:EXT:itaw_gigdisplayer/locallang_tca.php:itaw_gigdisplayer.pi_flexform.history</numIndex>
+                       <numIndex index="1">history</numIndex>
+                    </numIndex>
+                    <numIndex index="2">
+                       <numIndex index="0">LLL:EXT:itaw_gigdisplayer/locallang_tca.php:itaw_gigdisplayer.pi_flexform.teaser</numIndex>
+                       <numIndex index="1">teaser</numIndex>
+                    </numIndex>
+                 </items>
+              </config>
+           </TCEforms>
+        </displayType>
+        <Pagebrowser>
+           <TCEforms>
+              <exclude>1</exclude>
+              <label>LLL:EXT:itaw_gigdisplayer/locallang_tca.php:itaw_gigdisplayer.pi_flexform.Pagebrowser.label</label>
+              <config>
+                 <type>group</type>
+                 <internal_type>db</internal_type>
+                 <allowed>pages</allowed>
+                 <size>2</size>
+                 <maxitems>5</maxitems>
+                 <minitems>1</minitems>
+              </config>
+           </TCEforms>
+        </Pagebrowser>
+     </el>
+   </ROOT>
+  </sDEF>
+ </sheets>
+</T3DataStructure>

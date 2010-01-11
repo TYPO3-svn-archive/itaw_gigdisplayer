@@ -1,0 +1,49 @@
+(add new changes on top of this file)
+
+09-02-08 Oliver Wand <wand@itaw.de>
+
+	* Code CleanUp Part 1 :-)
+	* found some minor PHP errors in the code, also cleaned them up.
+
+09-02-08 Oliver Wand <wand@itaw.de>
+
+	* Added slimbox for Lightbox features. Requires t3mootools.
+	  If t3mootools is not active, no Lightbox will be initialised.
+
+09-02-07 Oliver Wand <wand@itaw.de>
+
+	* Shame on me, indeed there were some hardcoded links left in the code :-(
+		Now flexible usage of those via TypoScript. Option: listView
+	* Added new Markers to example Template
+	* Links to Detailview now makes use of cHash
+
+06-07-16 Oliver Wand <wand@itaw.de>
+
+    * fixed a small bug that prevented the location link to be displayed correctly
+    * As this extension is running smoothly and without any problems on several websites status changed to 'stable'
+
+06-06-19 Oliver Wand <wand@itaw.de>
+
+    * added new DB-columns to enter the location country and website
+    * Updated Manual to add the new features
+
+06-06-18 Oliver Wand <wand@itaw.de>
+
+    * added Flexforms to the extension to make handling of the new features easier
+    * cleaned up and optimized PHP sourcecode
+    * added some 'fallback' requests in sourcecode, e.g. to check if templateFile or IDs are given
+    * added 'History' feature. Now gig dates are checked, if the date is 'history' it can automatically be shown with the 'history' option
+
+06-06-15 Oliver Wand <wand@itaw.de>
+
+    * Performed some minor database optimization
+    * Added locallang.xml-Features
+    * Added check if dates are given, otherwise output to content (locallang.xml)
+    * Added new placeholders within the templates to make better use of locallang-Features
+    * Check if detail infos and/or flyer is given, otherwise output to content (locallang.xml)
+    * Added custom tables to the BE page module
+    * Fixed bug that prevented data being displayed correctly if not entered in default language
+
+06-06-12 Oliver Wand  <wand@itaw.de>
+
+	* First public release (v0.1.0)

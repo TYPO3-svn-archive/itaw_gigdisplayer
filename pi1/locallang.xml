@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_itawgigdisplayer_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="listFieldHeader_date">Date of the Gig</label>
+			<label index="listFieldHeader_location">Location of the gig</label>
+			<label index="listFieldHeader_location_address">Location Address</label>
+			<label index="listFieldHeader_location_city">Location City</label>
+			<label index="listFieldHeader_info">Detailinfo</label>
+			<label index="listFieldHeader_flyer">Flyer</label>
+			<label index="list_mode_1">Mode 1</label>
+			<label index="list_mode_2">Mode 2</label>
+			<label index="list_mode_3">Mode 3</label>
+			<label index="back">Back</label>
+			<label index="pi_list_browseresults_prev">&lt; Previous</label>
+			<label index="pi_list_browseresults_page">Page</label>
+			<label index="pi_list_browseresults_next">Next &gt;</label>
+			<label index="pi_list_browseresults_displays">Displaying results ###SPAN_BEGIN###%s to %s&lt;/span&gt; out of ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+			<label index="pi_list_searchBox_search">Search</label>
+		    <label index="main_currentlyNoConfirmedLive">Currently no confirmed dates.</label>
+		    <label index="main_Datetext">Date:</label>
+		    <label index="main_Locationtext">Location:</label>
+		    <label index="main_Infotext">Info:</label>
+		    <label index="main_Flyertext">Flyer:</label>
+            <label index="main_noFlyer">No Flyer available.</label>
+            <label index="main_noInfo">No Details available.</label>
+            <label index="main_noHistoryRecord">No history records found</label>
+            <label index="main_backlink">Back to Live-Dates</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+		    <label index="main_currentlyNoConfirmedLive">Zur Zeit keine bestätigten Termine.</label>
+		    <label index="main_Datetext">Datum:</label>
+		    <label index="main_Locationtext">Ort:</label>
+		    <label index="main_Infotext">Info:</label>
+		    <label index="main_Flyertext">Flyer:</label>
+	        <label index="main_noFlyer">Kein Flyer vorhanden.</label>
+	        <label index="main_noInfo">Keine Detailinfos vorhanden.</label>
+	        <label index="main_noHistoryRecord">Keine Eintraege in der Historie gefunden.</label>
+	        <label index="main_backlink">Zurück zur Übersicht</label>
+        </languageKey>
+	</data>
+</T3locallang>
